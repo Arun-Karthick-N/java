@@ -1,6 +1,6 @@
 public class animal {
     String name="mikasa";
-    int age;
+    int age=27;
     void makesound(){
         System.out.println("Animal make sound");
     }
@@ -8,19 +8,22 @@ public class animal {
         cat anm=new cat();
         anm.name="eren";
         anm.makesound();
+        dog an = new dog();
+        an.makesound();
     }
 }
 class dog extends animal{
+   // int age;
     @Override
     void makesound()
     {
-        System.out.println("Bark "+name);
+        System.out.println("Bark "+name+" "+age);
     }
 }
 class cat extends animal{
     @Override
     void makesound()
     {
-        System.out.println("meow... "+name);
+        System.out.println("meow... "+name+" "+age);
     }
 }
