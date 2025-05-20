@@ -7,14 +7,14 @@ public abstract class vehicle {
     //     truck.fuel();
     // }
 }
-class car extends vehicle{
+public class car extends vehicle{
     @Override void fuel()
     {
         System.out.println("car : 50%");
     }
 }
 
-class truck extends vehicle{
+public class truck extends vehicle{
     @Override void fuel()
     {
         System.out.println("truck : 90%");
