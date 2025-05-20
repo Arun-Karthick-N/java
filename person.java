@@ -6,6 +6,10 @@ public class person {
     public static void main(String[] args) {
         employee emp=new employee(213024,"arun");
         emp.display();
+        car car=new car();
+        truck truck = new truck();
+        car.fuel();
+        truck.fuel();
     }
 }
 class employee extends person{
