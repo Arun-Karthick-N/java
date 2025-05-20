@@ -1,20 +1,20 @@
 public abstract class vehicle {
     abstract void fuel();
-    // public static void main(String[] args) {
-    //     car car=new car();
-    //     truck truck = new truck();
-    //     car.fuel();
-    //     truck.fuel();
-    // }
+    public static void main(String[] args) {
+        car car=new car();
+        truck truck = new truck();
+        car.fuel();
+        truck.fuel();
+    }
 }
-public class car extends vehicle{
+class car extends vehicle{
     @Override void fuel()
     {
         System.out.println("car : 50%");
     }
 }
 
-public class truck extends vehicle{
+class truck extends vehicle{
     @Override void fuel()
     {
         System.out.println("truck : 90%");
