@@ -2,7 +2,7 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 
-public class file2 {
+public class filebuffwrite2 {
     public static void main(String[] args) {
     try{
         FileWriter fl= new FileWriter("text1.txt");

@@ -1,7 +1,7 @@
 
 import java.io.FileWriter;
 
-public class file {
+public class filewrite {
     public static void main(String[] args) {
     try{
         FileWriter fl= new FileWriter("text.txt");
