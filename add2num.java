@@ -7,6 +7,7 @@ public class add2num {
             System.out.println("Enter the value: ");
             int a = ak.nextInt();
             int b = ak.nextInt();
+            ak.nextLine();
             String s = ak.nextLine();
             System.out.println(a+b+s);
         }
