@@ -21,9 +21,9 @@ class dog extends animal{
     }
 }
 class cat extends animal{
-    @Override
-    void makesound()
-    {
-        System.out.println("meow... "+name+" "+age);
-    }
+    // @Override
+    // void makesound()
+    // {
+    //     System.out.println("meow... "+name+" "+age);
+    // }
 }

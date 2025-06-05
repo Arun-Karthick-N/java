@@ -1,15 +1,18 @@
 import java.util.Scanner;
 public class divbyzero {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+        try(Scanner scan=new Scanner(System.in)){
         System.out.print("Enter numerator: ");
         int num=scan.nextInt();
         System.out.print("Enter Dinaminator: ");
         int div=scan.nextInt();
         division d=new division();
         d.div(num,div);
+        }
+        catch (Exception e){
+            System.out.println(e+": Enter integer");
+        }
     }
-    
 }
 class division{
     void div(int num,int din){

@@ -9,7 +9,7 @@ public class crtexception {
                 throw new age_Exception_error("AGE not less than one ");
             }
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println("ERROR:"+e);
         }
         finally{
             System.out.println("END");
@@ -19,6 +19,6 @@ public class crtexception {
 class age_Exception_error extends Exception{
     age_Exception_error(String s){
         super(s);
-        //System.out.println(s);
+        System.out.println(s);
     }
 }

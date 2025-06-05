@@ -13,7 +13,7 @@ public class exceptionhandle {
 //         int a=10/0;
 //     }
      catch(Exception e){
-         System.out.println(e);
+         System.out.println("DIVISION BY ZERO ERROR "+e);
      }
      finally{
      System.out.println("END");

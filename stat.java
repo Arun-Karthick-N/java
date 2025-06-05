@@ -2,7 +2,7 @@ public class stat {
     public static int age = 27;
     static void disp()
     {
-        System.out.println("statuc function");
+        System.out.println("static function");
     }
     public static void main(String[] args) {
         System.out.println(stat.age);
